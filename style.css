@@ -1,3 +1,52 @@
 *{
     border: 1px solid black;
 }
+body{
+    margin:0;
+    padding:0;
+    font-family:"Lato", sans-serif;
+    line-height: 1.8em;
+}
+
+.section--img1{
+    background-image: url('Image1.jpg');
+    min-height: 700px;
+}
+.section--img2{
+    background-image: url('Image2.jpg');
+    min-height: 400px;
+}
+
+.section--img3{
+background-image: url('Image3');
+min-height: 400px;
+}
+
+.section{
+    text-align:center;
+    padding:50px 80px;
+}
+
+.section--light{
+    background-color: #f4f4f4;
+    color: #666;
+}
+.section--dark{
+    background-color: #282e34;
+    color: #ddd;
+}
+.section--img1,.section--img2,.section--img3{
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity:0.70;
+    position: relative;
+}
+
+.heading-container{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
